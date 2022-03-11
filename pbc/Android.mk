@@ -20,4 +20,5 @@ include $(CLEAR_VARS)
 LOCAL_MODULE               := pbc.conf
 LOCAL_MODULE_CLASS         := ETC
 LOCAL_SRC_FILES            := pbc.conf
+LOCAL_VENDOR_MODULE        := true
 include $(BUILD_PREBUILT)
